@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Encriptador | Alura</title>
+    <link rel="stylesheet" type="text/css" href="style.css">   
+    <link rel="shortcut icon" href="multimedia/logo-av-PhotoRoom.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Megrim&family=Montserrat:wght@100&family=Permanent+Marker&family=Sofia+Sans+Extra+Condensed:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Megrim&family=Montserrat:wght@100&family=Permanent+Marker&family=Sofia+Sans+Extra+Condensed:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <img class="logo" src="multimedia/logo-av-PhotoRoom.png" alt="logo del encriptador">
+        <h1 class="lura">lura</h1>
+    </header>
+
+    <main>
+
+        <section>
+            <textarea id="text-area" placeholder="Ingrese el texto aquí"></textarea>
+
+            <div>
+                <img class="signo-exclamacion" src="multimedia/exclamacion-PhotoRoom.png-PhotoRoom.png" alt="signo de exclamacion">
+
+                <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
+            </div>
+
+            <div class="botones">
+                <button id="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+
+                <button id="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+
+
+        <section>
+                <textarea id="mensaje" readonly=""></textarea>
+
+                <img id="img-marvel" src="multimedia/leter.png" alt="ilustracion">
+
+                <img id="img-escudo" src="multimedia/escudo.png" alt="">
+
+                <h2 id="texto-2">Ningún mensaje fue encontrado</h2>
+
+                <p id="texto-3">Ingresa el texto que deseas encriptar o desencriptar.</p>
+
+                <button id="btn-copiar" onclick="copiar()">Copiar</button> 
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy Created by Samuel Mejía 2023</p>
+    </footer>
+
+    <script type="text/javascript" src="codigo.js"></script>
+
+</body>
+
+
+
+</html>
